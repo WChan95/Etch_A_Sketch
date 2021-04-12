@@ -2,11 +2,20 @@
 .container{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 150px);
-    grid-template-rows: repeat(4, 150px);
+    vertical-align: middle;
+    justify-self: center;
+    grid-template-columns: repeat(40 ,20px);
+    grid-template-rows: repeat(40, 20px);
 
 }
 
+.blankSpace{
+    /* Used to move the grid drawing */
+    position: relative;
+    justify-content: center;
+    margin-bottom:100px;
+
+}
 .box{
     border: 1px solid black;
 }
