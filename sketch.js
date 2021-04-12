@@ -1,3 +1,10 @@
 
 const body = document.body;
-const div = document.createElement("div");
+let i;
+
+for(i = 0; i<16; i++){
+    const div = document.createElement("div");
+    div.classList.add("box");
+    body.append(div);
+
+}
