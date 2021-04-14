@@ -20,6 +20,18 @@
     border: 1px solid black;
 }
 
-.box:hover{
+/*.box:hover,
+.permahover{
+    background-color:blue;
+
+}
+
+*/
+
+.colorBlack{
     background-color:black;
+}
+
+.colorWhite{
+    background-color: white;
 }
