@@ -1,21 +1,26 @@
-
 .container{
-    display: grid;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    vertical-align: middle;
-    justify-self: center;
+}
+.title{
+    align-items: center;
+}
+.container2{
+    display:flex;
+    align-items: center;
+    justify-content: center
+}
+
+.container3{
+    display: grid;
     grid-template-columns: repeat(40 ,20px);
     grid-template-rows: repeat(40, 20px);
+    border: 3px solid black;
+    width: 800px;
 
 }
 
-.blankSpace{
-    /* Used to move the grid drawing */
-    position: relative;
-    justify-content: center;
-    margin-bottom:100px;
-
-}
 .box{
     border: 1px solid black;
 }
