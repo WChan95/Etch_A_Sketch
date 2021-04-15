@@ -13,13 +13,7 @@ for(i = 0; i<16; i++){
 
 
 //Reset etch a sketh to blank slate
-const arrayDiv = document.querySelectorAll("#etch");
-const resetSketch = document.getElementById("resetSketch");
-resetSketch.addEventListener('click', (e) => {
-    arrayDiv.forEach(element => {
-            element.classList.remove("colorBlack");
-    });
-})
+resetSketch();
 
 const sketchForm = document.getElementById("sketchForm");
 sketchForm.addEventListener('click', (e)=>{
@@ -34,6 +28,7 @@ sketchForm.addEventListener('click', (e)=>{
         body.appendChild(div);
     }
     etch();
+    resetSketch();
 })
 
 //Allows each div to be individually colored for mouse hover
@@ -46,4 +41,14 @@ function etch(){
             element.classList.add("colorBlack");
         });
     });
+}
+
+function resetSketch(){
+    const arrayDiv = document.querySelectorAll("#etch");
+    const resetSketch = document.getElementById("resetSketch");
+    resetSketch.addEventListener('click', (e) => {
+        arrayDiv.forEach(element => {
+                element.classList.remove("colorBlack");
+        });
+    })
 }
