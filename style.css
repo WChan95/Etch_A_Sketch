@@ -16,6 +16,7 @@
 
 .container3{
 /*Default etch a sketch size */
+/*4 * 4 = # of squares, px measurement will be actual size of indiv. squares */
     display: grid;
     grid-template-columns: repeat(4 ,30px);
     grid-template-rows: repeat(4, 30px);
