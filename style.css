@@ -1,46 +1,52 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+html{
+    background-color: lightgray;
 }
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
 .title{
-    align-items: center;
+align-items: center;
 }
 .container2{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 130px;
-    
+display:flex;
+align-items: center;
+justify-content: center;
+padding: 130px;
+
 }
 
 .container3{
 /*Default etch a sketch size */
 /*4 * 4 = # of squares, px measurement will be actual size of indiv. squares */
-    display: grid;
-    grid-template-columns: repeat(4 ,30px);
-    grid-template-rows: repeat(4, 30px);
-    border: 2px solid black;
-    width: auto;
+display: grid;
+grid-template-columns: repeat(4 ,30px);
+grid-template-rows: repeat(4, 30px);
+border: 2px solid black;
+width: auto;
 
 }
 
 .box{
-    border: 1px solid black;
+border: 1px solid black;
 }
 
 /*.box:hover,
 .permahover{
-    background-color:blue;
+background-color:blue;
 
 }
 
 */
 
 .colorBlack{
-    background-color:black;
+background-color:black;
 }
 
 .colorWhite{
-    background-color: white;
+background-color: white;
 }
