@@ -3,7 +3,7 @@
 const body = document.getElementById("container")
 
 //Creates size of etch a sketch
-for(i = 0; i<1600; i++){
+for(i = 0; i<16; i++){
     const div = document.createElement("div");
     div.classList.add("box");
     div.setAttribute("id","etch");
@@ -26,3 +26,7 @@ resetSketch.addEventListener('click', (e) => {
     });
 })
 
+//Set grid and square size
+const container3 = document.getElementById("container");
+console.log(container3);
+container3.style.gridTemplateColumns = `repeat(10, 20px)`;
