@@ -11,13 +11,15 @@ justify-content: center;
 
 .title{
 align-items: center;
+    margin-top: 90px;
 }
 .container2{
 display:flex;
 align-items: center;
 justify-content: center;
 flex-flow: column wrap;
-padding: 120px;
+padding: 10px;
+
 
 }
 
@@ -36,17 +38,9 @@ border: 3px solid black;
 border: 1px solid black;
 }
 
-/*.box:hover,
-.permahover{
-background-color:blue;
-
-}
-
-*/
-
 .resetSketch{
-    padding: 8px;
-    margin: auto;
+    display:grid;
+    padding: 30px;
 
 }
 .colorBlack{
