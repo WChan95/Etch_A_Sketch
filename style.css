@@ -1,5 +1,5 @@
 html{
-    background-color: #FAF9F6;
+    background-color: #FFFFFF;
 }
 
 .container{
@@ -39,9 +39,21 @@ border: 1px solid black;
 }
 
 .resetSketch{
-    display:grid;
-    padding: 30px;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
 
+}
+
+.resetSketchChild{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #D3CDD7;
+    border: 2px solid 
+    border-radius: 3px;
 }
 .colorBlack{
 background-color:black;
